@@ -105,6 +105,17 @@
             nextButton:".swiper-button-next",
 　　　　　　　effect:"cube"
         })
+        new Swiper(".swiper-image7",{
+            autoplay:1500,
+            loop:true,
+            speed: 1000,
+            autoplayDisableOnInteraction:false,
+            pagination:".swiper-pagination",
+            paginationClickable:true,
+            prevButton:".swiper-button-prev",
+            nextButton:".swiper-button-next",
+　　　　　　　effect:"cube"
+        })
         // hide loading animation since everything is ready
         $('.loading-overlay').slideUp();
     });
