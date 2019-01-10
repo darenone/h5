@@ -38,8 +38,11 @@
       .my-skills {
         list-style: none;
         padding-left: 5px;
-        line-height: 22px;
+        line-height: 24px;
         word-break: break-all;
+        li {
+            margin-bottom: 5px;
+        }
     }
   }
   .slide-8-foot {

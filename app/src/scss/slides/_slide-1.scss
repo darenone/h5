@@ -1,5 +1,6 @@
 .slide-1 {
     position: relative;
+    background: rgb(100, 182, 195);
     // background-image: url('../images/bg.jpg');
     // 
     // background-size: initial;
@@ -25,7 +26,7 @@
         list-style: none;
         padding: 10px;
         background: url('../images/zong.jpeg') no-repeat 100% 100%;
-        color: #ff935c;
+        color: #000;
         // text-align: left;
         // // padding: 2rem;
         // margin: 0;
@@ -75,7 +76,7 @@
         }
     }
     .item-text {
-        color: #888;
+        color: #000;
         // font-weight: bold;
         text-align: left;
         text-shadow:none;
