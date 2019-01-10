@@ -22,7 +22,7 @@
         });
 
         // init Swiper
-        new Swiper('.swiper-container', {
+        new Swiper('.swiper-father', {
             mousewheelControl: true,
             effect: 'coverflow',    // slide, fade, coverflow or flip
             speed: 500,
@@ -61,7 +61,50 @@
                 }
             }
         });
-
+        new Swiper(".swiper-image",{
+            autoplay:1500,
+            loop:true,
+            speed: 1000,
+            autoplayDisableOnInteraction:false,
+            pagination:".swiper-pagination",
+            paginationClickable:true,
+            prevButton:".swiper-button-prev",
+            nextButton:".swiper-button-next",
+　　　　　　　effect:"cube"
+        })
+        new Swiper(".swiper-image4",{
+            autoplay:1500,
+            loop:true,
+            speed: 1000,
+            autoplayDisableOnInteraction:false,
+            pagination:".swiper-pagination",
+            paginationClickable:true,
+            prevButton:".swiper-button-prev",
+            nextButton:".swiper-button-next",
+　　　　　　　effect:"cube"
+        })
+        new Swiper(".swiper-image5",{
+            autoplay:1500,
+            loop:false,
+            speed: 1000,
+            autoplayDisableOnInteraction:false,
+            pagination:".swiper-pagination",
+            paginationClickable:true,
+            prevButton:".swiper-button-prev",
+            nextButton:".swiper-button-next",
+　　　　　　　effect:"cube"
+        })
+        new Swiper(".swiper-image6",{
+            autoplay:1500,
+            loop:true,
+            speed: 1000,
+            autoplayDisableOnInteraction:false,
+            pagination:".swiper-pagination",
+            paginationClickable:true,
+            prevButton:".swiper-button-prev",
+            nextButton:".swiper-button-next",
+　　　　　　　effect:"cube"
+        })
         // hide loading animation since everything is ready
         $('.loading-overlay').slideUp();
     });
